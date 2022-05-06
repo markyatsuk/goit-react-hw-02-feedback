@@ -1,0 +1,55 @@
+.container {
+  margin-left: 50px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.button {
+  min-width: 50px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  transform: scale(1.07);
+}
+
+/* .good__btn{
+    background-color: rgba(128, 249, 128, 0.4);    
+}
+
+.neutral__btn{
+    background-color: rgba(230, 208, 180, 0.4);
+}
+
+.bad__btn{
+    background-color: rgba(251, 137, 137, 0.4);
+} */
+
+.statisticText {
+  font-size: 22px;
+}
+
+.number {
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.message {
+  font-size: 20px;
+}
+
+.buttonList {
+  display: flex;
+  padding-left: 0;
+}
+
+.button__item + .button__item {
+  margin-left: 10px;
+}
