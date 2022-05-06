@@ -20,17 +20,17 @@
   transform: scale(1.07);
 }
 
-/* .good__btn{
-    background-color: rgba(128, 249, 128, 0.4);    
+.Good {
+  background-color: rgba(128, 249, 128, 0.4);
 }
 
-.neutral__btn{
-    background-color: rgba(230, 208, 180, 0.4);
+.Neutral {
+  background-color: rgba(230, 208, 180, 0.4);
 }
 
-.bad__btn{
-    background-color: rgba(251, 137, 137, 0.4);
-} */
+.bad {
+  background-color: rgba(251, 137, 137, 0.4);
+}
 
 .statisticText {
   font-size: 22px;
