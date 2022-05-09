@@ -23,11 +23,11 @@ class FeedBack extends Component {
     return total;
   };
   countPositiveFeedbackPercentage = () => {
-    let total = this.state.good + this.state.neutral + this.state.bad;
-    if (total === 0) {
+    if (this.countTotalFeedback() === 0) {
       return 0;
     }
-    let positivePercentage = (this.state.good / total) * 100;
+    let positivePercentage =
+      (this.state.good / this.countTotalFeedback()) * 100;
     return Math.round(positivePercentage) + '%';
   };
 

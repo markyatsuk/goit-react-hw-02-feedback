@@ -26,6 +26,12 @@
 
 .Neutral {
   background-color: rgba(230, 208, 180, 0.4);
+  min-width: 50px;
+  padding: 5px 15px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
 .bad {
