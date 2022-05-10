@@ -11,8 +11,8 @@ class FeedBack extends Component {
     bad: 0,
   };
 
-  onLeaveFeedback = e => {
-    const option = e.currentTarget.textContent.toLowerCase();
+  onLeaveFeedback = feedback => {
+    const option = feedback;
     this.setState(prevState => {
       return { [option]: prevState[option] + 1 };
     });
