@@ -33,12 +33,12 @@ class FeedBack extends Component {
 
   render() {
     const { good, neutral, bad } = this.state;
-
+    const options = Object.keys(this.state);
     return (
       <div className={s.container}>
         <Section title="Please leave feedback">
           <FeedbackOptions
-            options={['Good', 'Neutral', 'Bad']}
+            options={options}
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
