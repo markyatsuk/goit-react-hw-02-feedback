@@ -12,9 +12,8 @@ class FeedBack extends Component {
   };
 
   onLeaveFeedback = feedback => {
-    const option = feedback;
     this.setState(prevState => {
-      return { [option]: prevState[option] + 1 };
+      return { [feedback]: prevState[feedback] + 1 };
     });
   };
 
